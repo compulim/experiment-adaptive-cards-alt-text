@@ -1,6 +1,6 @@
 import './ActivityInput.css';
 
-import { type ChangeEventHandler, memo, useCallback, useMemo, KeyboardEventHandler, useRef } from 'react';
+import { memo, useCallback, useMemo, useRef, type ChangeEventHandler, type KeyboardEventHandler } from 'react';
 import { useRefFrom } from 'use-ref-from';
 
 import onErrorResumeNext from '../util/onErrorResumeNext';
